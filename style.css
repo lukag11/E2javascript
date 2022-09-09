@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.section-container-general {
+
+
+    width: 600px;
+    border: 1px solid blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulario {
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-number {
+    padding: 6px;
+}
+
+.input-number::placeholder {
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+}
+
+.text {
+    padding: 5px;
+    color: green;
+}
+
+.text:hover {
+    color: red;
+}
+
+.text-h2 {
+    color: red;
+}
+
+.text-h4 {
+    color: yellow;
+}
